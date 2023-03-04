@@ -30,6 +30,6 @@ app.get('/', (req,res)=>{
 const port = process.env.PORT;
 
 app.listen(port, ()=>{
-    console.log(`your application running on http://localhost/${port}`)
+    console.log(`your application running on http://localhost:${port}`)
 })
 
